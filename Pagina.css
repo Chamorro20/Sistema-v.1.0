@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  place-items: center;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  place-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  place-items: center;
+}
+
+header {
+  background: #00ff0d;
+  color: white;
+  padding: 20px 0;
+  place-items: center;
+}
+
+.logo {
+  height: 60px;
+  float: left;
+  margin-right: 15px;
+  place-items: center;
+}
+
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  place-items: center;
+}
+
+nav {
+  margin-top: 10px;
+  place-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  place-items: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  place-items: center;
+}
+
+.hero {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnWCE935rW6kQIxJmABpb8M1tBDwh1pe8b7zkuGVmugQmIlyAzcIB79hUvcGZkpWadY-8&usqp=CAU') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.info {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}

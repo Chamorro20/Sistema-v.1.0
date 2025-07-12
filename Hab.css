@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.habitacion {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.habitacion:hover {
+    transform: scale(1.02);
+}
+
+.habitacion img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.info {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.info h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.info p {
+    margin: 5px 0;
+    color: #555;
+}

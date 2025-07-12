@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva de Habitaciones</title>
+    <link rel="stylesheet" href="CSS/Reservas.css">
+</head>
+<body>
+    <h1>Reservar Habitación</h1>
+    
+    <form id="formReserva">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="habitacion">Tipo de Habitación:</label>
+        <select id="habitacion" required>
+            <option value="">Selecciona...</option>
+            <option value="Simple">Simple</option>
+            <option value="Ejecutiva">Ejecutiva</option>
+            <option value="Matrimonial">Matrimonial</option>
+            <option value="Doble">Doble</option>
+            <option value="Jaccuzy">Jaccuzy</option>
+        </select>
+
+        <label for="fecha">Fecha de entrada:</label>
+        <input type="date" id="fecha" required>
+
+        <button type="submit">Reservar</button>
+    </form>
+        <a href="Menu.html"><button>Salir</button></a>
+    <h2>Reservas Realizadas</h2>
+    <ul id="listaReservas"></ul>
+
+    <script src="JS/Reservas.js"></script>
+</body>
+</html>
